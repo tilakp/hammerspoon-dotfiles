@@ -40,3 +40,14 @@ Install:andUse("SendToOmniFocus",
      },
    }
 )
+
+------------------------------------------------------------
+-- look up selection, open selected word in dictionary  
+------------------------------------------------------------
+Install:andUse("LookupSelection", 
+	{
+		hotkeys = {
+       		lexicon = { hyper, "d" }
+     	},
+	}
+)
