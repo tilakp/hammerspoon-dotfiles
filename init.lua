@@ -51,3 +51,22 @@ Install:andUse("LookupSelection",
      	},
 	}
 )
+
+------------------------------------------------------------
+-- mute microphone 
+------------------------------------------------------------
+Install:andUse("MicMute", {
+	hotkeys = {
+		toggle = { hyper, "y" }
+	}
+})
+
+------------------------------------------------------------
+-- ksheet to see shortcuts
+------------------------------------------------------------
+
+Install:andUse("KSheet", {
+	hotkeys = {
+		toggle = { hyper, "h" }
+	}
+})
