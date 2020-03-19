@@ -18,12 +18,12 @@ local wifi = require('wifi')
 ------------------------------------------------------------
 -- hotkeys to launch apps blazingly fast
 ------------------------------------------------------------
-local wifi = require('fastapp')
+local fastapp = require('fastapp')
 
 ------------------------------------------------------------
 -- hyper + a will connect airpods
 ------------------------------------------------------------
-local wifi = require('airpods')
+local airpods = require('airpods')
 
 ------------------------------------------------------------
 -- using spoons here 

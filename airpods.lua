@@ -29,7 +29,7 @@ function airPods(deviceName)
   return hs.osascript.applescript(s)
 end
 
-hs.hotkey.bind({"cmd"}, "a", function()
+hs.hotkey.bind(hyper, "a", function()
   -- Starlord's airpods are called Starpods
   local ok, output = airPods('Starpods')
   if ok then
