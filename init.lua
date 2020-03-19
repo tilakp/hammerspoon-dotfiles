@@ -21,6 +21,11 @@ local wifi = require('wifi')
 local wifi = require('fastapp')
 
 ------------------------------------------------------------
+-- hyper + a will connect airpods
+------------------------------------------------------------
+local wifi = require('airpods')
+
+------------------------------------------------------------
 -- using spoons here 
 ------------------------------------------------------------
 hs.loadSpoon("SpoonInstall")

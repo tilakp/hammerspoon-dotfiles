@@ -15,6 +15,7 @@ Hackernew discussion that led me to explore this:
 1. Global send to omni focus hotkey, hyper + t (task)
 1. hyper + 1: open one note
 1. hyper + c: open chrome
+1. hyper + a: connect airpods (change airpods name in airpods.lua file). If already connected, then take no action. 
 1. hyper + d: open selected word in the dictionary app
 1. hyper + y: toggle microphone (mute/unmute) and display status in the status bar. Amazon Chime uses command + Y to mute/unmute so "Y" is coming from there. 
 1. hyper + h: display cheatsheet of the app (all shortcuts)
